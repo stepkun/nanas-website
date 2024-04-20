@@ -1,0 +1,335 @@
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- nice fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Nana's Thai-Masssage</title>
+  <style>
+    header{
+      background: url(img/wandbild.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 756px;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+    @media screen and (max-width: 568px){
+      nav {
+        min-height: 110px;
+      }
+    }
+    @media screen and (max-width: 340px){
+      nav {
+        min-height: 165px;
+      }
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    .tabs .indicator{
+      background-color: #1a237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+    #logo{
+      /* #e2b520 oder #d4af37 oder #ffd700 oder #c4a747 oder #daa520 */
+      color: #ffd700;
+    }
+    .material-icons{
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- marquee 
+    <marquee class="red white-text">Wir machen Urlaub bis zum 2. Januar 2024!</marquee>
+    -->
+    <!-- navbar -->
+    <nav class="nav-wrapper" style="background-color: rgb(158, 0, 111);">
+      <div class="container">
+        <a href="#" class="brand-logo" id="logo">Nana's Thai-Massage</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a style="color: #ffd700;" href="#massagen">Massagen</a></li>
+          <li><a style="color: #ffd700;" href="#preise">Preise</a></li>
+          <li><a style="color: #ffd700;" href="#kontakt">Kontakt</a></li>
+          <li><a style="color: #ffd700;" href=./impressum.html>Impressum</a></li>
+        </ul>
+        <ul class="sidenav pink darken-4" id="mobile-menu">
+          <li><a style="font-size: 1.4em; color: #ffd700;" href="#massagen">Massagen</a></li>
+          <li><a style="font-size: 1.4em; color: #ffd700;" href="#preise">Preise</a></li>
+          <li><a style="font-size: 1.4em; color: #ffd700;" href="#kontakt">Kontakt</a></li>
+          <li><a style="font-size: 1.4em; color: #ffd700;" href=./impressum.html>Impressum</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <h3 style="padding: 40px; color: rgb(158, 0, 111);">
+    Liebe Kundinnen und Kunden,<br>
+    <br>
+    <!--
+    Wir machen in der Zeit vom 24. Dezember bis 1. Januar (jeweils einschließlich) Urlaub.<br>
+    -->
+    <!-- 
+    Zur Zeit dürfen wir leider wieder nicht öffnen.<br> 
+    Es ist uns jedoch möglich Gutscheine zu verkaufen.<br>
+    Bitte vereinbaren Sie hierzu telefonisch einen Termin: 07181 98 52 793 bzw. 01516 10 11 172<br>
+    --> 
+    <!--
+    Ab Dienstag den 09. M&auml;rz 2021 öffnen wir unter Beachtung der Auflagen.<br> 
+    --> 
+    <!--
+    Zur Zeit d&uumlrfen wir unter Beachtung der folgenden Auflagen behandeln. 
+    Sie ben&oumltigen aktuell einen Impfnachweis oder Genesungsnachweis<br>
+    Liegt die Impfung/Genesung länger als 6 Monate zurück, ben&ouml;tigen Sie au&szlig;erdem
+    einen g&uumlltigen negativen Corona-Test (kein Selbsttest)<br>
+    <br>
+    Wir bitten Sie wegen des hohen Infektionsrisikos weiterhin eine Maske zu tragen.<br>
+    <br>
+    -->
+    <!--  -->
+    bitte vereinbaren Sie Ihre Termine telefonisch.<br>
+    Sie erreichen uns unter 07181 / 98 52 793.<!-- bzw. 01516 10 11 172 --><br>
+    <br>
+    Bleiben Sie gesund<br>
+    Nana‘s Thaimassage
+  </h3>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/fenster.png" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- massagen / grid -->
+  <section class="container section scrollspy" id="massagen">
+    <div class="row">
+      <div class="col s12 l4">
+          <img src="img/thaimassage.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Traditionelle Thai-Massage</h2>
+        <p>
+            Ein ganz anderes Massageerlebnis als klassische Massagen. Man nennt sie auch „passives Yoga“. 
+            Bei der traditionellen Thaimassage wird der gesamte Körper mittels Akupressur gedrückt, 
+            wodurch sich verspannte Muskeln lösen. Die Intensität wird individuell an jeden Menschen angepasst. 
+            Bei einer guten Thai-Massage sollte der Körper schon gefordert werden. 
+            Denn im Alltag wird er oft unterfordert und braucht den Ausgleich.
+            Die Massage empfiehlt sich besonders bei Menschen mit Rücken- und Beinbeschwerden.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+          <img src="img/aromamassage.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">Aroma-Ölmassage</h2>
+        <p>
+            Bei dieser Massage lassen Sie die Seele baumeln. Sie ist aber mehr als nur eine Streicheleinheit: 
+            Wir bringen die Blutzirkulation und den Stoffwechsel in Schwung und leiten die körpereigenen Regenerationsprozesse ein. 
+            Der wunderbare Duft, das warme Öl auf der Haut und sanfte, fließende Massagegriffe führen zu tiefer Entspannung.
+            Die Aroma-Ölmassage verbindet die Techniken der Thai-Massage mit der entspannenden Wirkung aromatischer Kräuteröle
+            und Düfte.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+          <img src="img/kopfmassage.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Kopf, Nacken, Schultern, Rücken und Beine</h2>
+        <p>
+          Diese Massage konzentriert sich auf die individuellen „Problemzonen“ eines Menschen. 
+          Ob Sie im Beruf viel am Bildschirm oder im Auto sitzen, schwere Lasten heben, kleine Kinder tragen, 
+          oder vielen seelischen Belastungen ausgesetzt sind: Durch eine kleine Auszeit, gezielte Akupressur 
+          und Massage wollen wir Ihnen helfen, Spannungen abzubauen und den typischen Stressreaktionen wie 
+          Kopfschmerzen oder Migräne vorzubeugen.
+          Die Massage empfiehlt sich besonders bei Menschen mit stressigem Alltag.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+          <img src="img/fussreflexzonen.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">Fußreflexzonen-Massage</h2>
+        <p>
+          Ideal bei stark beanspruchten Beinen und Füßen. 
+          Jeder weiß, dass die Nervenendpunkte in den Füßen mit Organen und Funktionen im ganzen Körper verbunden sind. 
+          Durch gezielte Stimulation der Nervenendpunkte werden die zugehörigen Organe und Funktionen  angeregt und 
+          körpereigene Regenerationsprozesse aktiviert.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/innenraum.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- preise / tabs -->
+  <section class="section container scrollspy" id="preise">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">Unsere Preise</h2>
+        <p>Die angegebenen Zeiten sind die reinen Massagezeiten.</p>
+        <p>Bitte seien Sie einige Minuten früher da, damit sie sich in aller Ruhe vorbereiten können.</p>
+      </div>
+      <div class="col s12 l8">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s2">
+            <a href="#thai" class="active indigo-text text-darken-4">Thai-Massage</a>
+          </li>
+          <li class="tab col s3">
+            <a href="#aroma" class="indigo-text text-darken-4">Aroma-&Ouml;lmassage</a>
+          </li>
+          <li class="tab col s4">
+            <a href="#kopf" class="indigo-text text-darken-4">Kopf, Nacken, Schultern, Rücken, Beine</a>
+          </li>
+          <li class="tab col s3">
+            <a href="#fuss" class="indigo-text text-darken-4">Fuß-Reflexzonenmassage</a>
+          </li>
+        </ul>
+        <div id="thai" class="col s12">
+          <p class="flow-text indigo-text text-darken-4">Traditionelle Thai-Massage</p>
+          <table class="col s5">
+            <tr><td>60 min</td><td>43,- €</td></tr>
+            <tr><td>90 min</td><td>63,- €</td></tr>
+            <!-- <tr><td>120 min</td><td>80,- €</td></tr> -->
+          </table>
+        </div>
+        <div id="aroma" class="col s12">
+          <p class="flow-text indigo-text text-darken-4">Aroma-&Ouml;lmassage</p>
+          <table class="col s5">
+            <tr><td>60 min</td><td>45,- €</td><td></tr>
+            <tr><td>90 min</td><td>65,- €</td><td></tr>
+            <!-- <tr><td>120 min</td><td>85,- €</td><td></tr> -->
+          </table>
+        </div>
+        <div id="kopf" class="col s12">
+          <p class="flow-text indigo-text text-darken-4">Kopf, Nacken, Schultern, Rücken, Beine</p>
+          <table class="col s5">
+            <tr><td>30 min</td><td>25,- €</td></td></tr>
+            <tr><td>45 min</td><td>35,- €</td></td></tr>
+            <tr><td>60 min</td><td>43,- €</td></td></tr>
+          </table>
+          <div class="col s2">
+            &nbsp;
+          </div>
+          <table class="col s5">
+            <tr></td><td>90 min</td><td>63,- €</td></tr>
+            <!-- <tr></td><td>120 min</td><td>75,- €</td></tr> -->
+            <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+          </table>
+        </div>
+        <div id="fuss" class="col s12">
+          <p class="flow-text indigo-text text-darken-4">Fuß-Reflexzonenmassage</p>
+          <table class="col s5">
+            <tr><td>30 min</td><td>25,- €</td></tr>
+            <!-- <tr></td><td>30 min</td><td>z. Zt. nicht m&ouml;glich</td></tr> -->
+            <tr><td>45 min</td><td>35,- €</td></tr>
+            <!-- <tr><td>60 min</td><td>38,- €</td></tr> -->
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="text">
+      Selbverständlich erhalten Sie bei uns auch Gutscheine zum Verschenken.<br>
+      Sollte der/dem Beschenkten Ihre Wahl nicht gefallen, kann sie/er (gegebenenfalls mit Zuzahlung) die Wahl ändern.
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/massageliege_unten.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- infos -->
+  <section class="section container scrollspy" id="kontakt">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">Kontakt</h2>
+        <h5> Öffnungszeiten</h5>
+        <p><b>Mo-Fr:</b> 10:30 - 19:00 Uhr<br>
+        Sa, So und an Feiertagen haben wir geschlossen<br>
+        <!-- <b>Sa:</b> 10:30 - 15:00 Uhr --></p>
+        <h5>Telefon</h5>
+        <p>07181/9852793</p>
+        <h5>Anschrift</h5>
+        <p>Wieslauftalstrasse 30<br>
+           73614 Schorndorf-Haubersbronn</p>
+      </div>
+      <div class="col s12 l5">
+          <p><br></p>
+          <h5>So finden Sie uns</h5>
+          <img src="img/anfahrt.png" alt="" class="responsive-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5>Über die Thai-Massage</h5>
+          <p>Die Thai-Massage ist in Deutschland 'Wellness' und keine Heilbehandlung.</P>
+          <P>Die positive Wirkung auf das allgemeine Wohlbefinden und die Beweglichkeit ist aber unbestritten.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+            <h5 style="color:orange;">
+              <p>In unserem Massagestudio ist nur Barzahlung möglich</p>
+              <p>Keine Erotikmassagen!</p>
+            </h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <img src="img/rose_hellgolden.png" alt="" height=40px>
+      <div class="container center-align">&copy; 2019 Nana's Thaimassage</div>
+      <img src="img/rose_hellgolden.png" alt="" height=40px>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+
+    });
+  </script>
+</body>
+</html>
